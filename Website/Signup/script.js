@@ -1,4 +1,7 @@
-window.οncοntextmenu=function(){return false;}
+var file = "file://C:\Users\downe\Desktop\Development\Website\Signup\script.js"
+let text = await file.text();
+console.log(text);
+
 
 $("#login-button").click(function(event){
 	var Username = document.getElementById('Username');
